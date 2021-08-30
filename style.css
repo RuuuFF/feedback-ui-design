@@ -42,6 +42,10 @@ body {
   cursor: pointer;
   padding: 20px;
   margin: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .rating:hover,
@@ -85,4 +89,10 @@ body {
   color: red;
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .panel-container {
+    padding: 20px;
+  }
 }
